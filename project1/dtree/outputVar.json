@@ -1,0 +1,16 @@
+[
+    {
+        "level": "INTERVAL",
+        "name": "P_BAD0",
+        "length": 8,
+        "role": "output",
+        "type": "decimal"
+    },
+    {
+        "level": "INTERVAL",
+        "name": "P_BAD1",
+        "length": 8,
+        "role": "output",
+        "type": "decimal"
+    }
+]

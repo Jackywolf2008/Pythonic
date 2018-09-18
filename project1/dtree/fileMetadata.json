@@ -1,0 +1,11 @@
+[
+  {
+    "role": "score",
+    "name": "score.py"
+  },
+  {
+    "role": "model",
+    "name": "dtree_model.sashdat",
+	"caslib": "public"
+  }  
+]
