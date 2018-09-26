@@ -1,0 +1,9 @@
+{
+  "targetVariable":"bad",
+  "targetLevel":"binary",
+  "description":"HPForest",
+  "tool":"SASStudio",
+  "algorithm":"random forest",
+  "function":"classification",
+  "scoreCodeType":"ds2EmbeddedProcess"
+}
