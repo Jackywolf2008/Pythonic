@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TABLE>
+   <INPUT>
+      <COLUMN name="NAME" value="LOAN" />
+      <COLUMN name="TYPE" value="N" />
+      <COLUMN name="LENGTH" value="8" />
+      <COLUMN name="LABEL" missing=" " />
+      <COLUMN name="FORMAT" missing=" " />
+      <COLUMN name="LEVEL" value="Interval" />
+      <COLUMN name="ROLE" value="INPUT" />
+      <COLUMN name="FormatName" missing=" " />
+   </INPUT>
+   <INPUT>
+      <COLUMN name="NAME" value="MORTDUE" />
+      <COLUMN name="TYPE" value="N" />
+      <COLUMN name="LENGTH" value="8" />
+      <COLUMN name="LABEL" missing=" " />
+      <COLUMN name="FORMAT" missing=" " />
+      <COLUMN name="LEVEL" value="Interval" />
+      <COLUMN name="ROLE" value="INPUT" />
+      <COLUMN name="FormatName" missing=" " />
+   </INPUT>
+   <INPUT>
+      <COLUMN name="NAME" value="VALUE" />
+      <COLUMN name="TYPE" value="N" />
+      <COLUMN name="LENGTH" value="8" />
+      <COLUMN name="LABEL" missing=" " />
+      <COLUMN name="FORMAT" missing=" " />
+      <COLUMN name="LEVEL" value="Interval" />
+      <COLUMN name="ROLE" value="INPUT" />
+      <COLUMN name="FormatName" missing=" " />
+   </INPUT>
+   <INPUT>
+      <COLUMN name="NAME" value="YOJ" />
+      <COLUMN name="TYPE" value="N" />
+      <COLUMN name="LENGTH" value="8" />
+      <COLUMN name="LABEL" missing=" " />
+      <COLUMN name="FORMAT" missing=" " />
+      <COLUMN name="LEVEL" value="Interval" />
+      <COLUMN name="ROLE" value="INPUT" />
+      <COLUMN name="FormatName" missing=" " />
+   </INPUT>
+   <INPUT>
+      <COLUMN name="NAME" value="DEROG" />
+      <COLUMN name="TYPE" value="N" />
+      <COLUMN name="LENGTH" value="8" />
+      <COLUMN name="LABEL" missing=" " />
+      <COLUMN name="FORMAT" missing=" " />
+      <COLUMN name="LEVEL" value="Interval" />
+      <COLUMN name="ROLE" value="INPUT" />
+      <COLUMN name="FormatName" missing=" " />
+   </INPUT>
+   <INPUT>
+      <COLUMN name="NAME" value="DELINQ" />
+      <COLUMN name="TYPE" value="N" />
+      <COLUMN name="LENGTH" value="8" />
+      <COLUMN name="LABEL" missing=" " />
+      <COLUMN name="FORMAT" missing=" " />
+      <COLUMN name="LEVEL" value="Interval" />
+      <COLUMN name="ROLE" value="INPUT" />
+      <COLUMN name="FormatName" missing=" " />
+   </INPUT>
+   <INPUT>
+      <COLUMN name="NAME" value="CLAGE" />
+      <COLUMN name="TYPE" value="N" />
+      <COLUMN name="LENGTH" value="8" />
+      <COLUMN name="LABEL" missing=" " />
+      <COLUMN name="FORMAT" missing=" " />
+      <COLUMN name="LEVEL" value="Interval" />
+      <COLUMN name="ROLE" value="INPUT" />
+      <COLUMN name="FormatName" missing=" " />
+   </INPUT>
+   <INPUT>
+      <COLUMN name="NAME" value="CLNO" />
+      <COLUMN name="TYPE" value="N" />
+      <COLUMN name="LENGTH" value="8" />
+      <COLUMN name="LABEL" missing=" " />
+      <COLUMN name="FORMAT" missing=" " />
+      <COLUMN name="LEVEL" value="Interval" />
+      <COLUMN name="ROLE" value="INPUT" />
+      <COLUMN name="FormatName" missing=" " />
+   </INPUT>
+   <INPUT>
+      <COLUMN name="NAME" value="DEBTINC" />
+      <COLUMN name="TYPE" value="N" />
+      <COLUMN name="LENGTH" value="8" />
+      <COLUMN name="LABEL" missing=" " />
+      <COLUMN name="FORMAT" missing=" " />
+      <COLUMN name="LEVEL" value="Interval" />
+      <COLUMN name="ROLE" value="INPUT" />
+      <COLUMN name="FormatName" missing=" " />
+   </INPUT>
+   <INPUT>
+      <COLUMN name="NAME" value="REASON" />
+      <COLUMN name="TYPE" value="C" />
+      <COLUMN name="LENGTH" value="7" />
+      <COLUMN name="LABEL" missing=" " />
+      <COLUMN name="FORMAT" missing=" " />
+      <COLUMN name="LEVEL" value="Classification" />
+      <COLUMN name="ROLE" value="INPUT" />
+      <COLUMN name="FormatName" missing=" " />
+   </INPUT>
+   <INPUT>
+      <COLUMN name="NAME" value="JOB" />
+      <COLUMN name="TYPE" value="C" />
+      <COLUMN name="LENGTH" value="7" />
+      <COLUMN name="LABEL" missing=" " />
+      <COLUMN name="FORMAT" missing=" " />
+      <COLUMN name="LEVEL" value="Classification" />
+      <COLUMN name="ROLE" value="INPUT" />
+      <COLUMN name="FormatName" missing=" " />
+   </INPUT>
+   <INPUT>
+      <COLUMN name="NAME" value="NINQ" />
+      <COLUMN name="TYPE" value="N" />
+      <COLUMN name="LENGTH" value="8" />
+      <COLUMN name="LABEL" missing=" " />
+      <COLUMN name="FORMAT" missing=" " />
+      <COLUMN name="LEVEL" value="Classification" />
+      <COLUMN name="ROLE" value="INPUT" />
+      <COLUMN name="FormatName" missing=" " />
+   </INPUT>
+   <INPUT>
+      <COLUMN name="NAME" value="BAD" />
+      <COLUMN name="TYPE" value="N" />
+      <COLUMN name="LENGTH" value="8" />
+      <COLUMN name="LABEL" missing=" " />
+      <COLUMN name="FORMAT" missing=" " />
+      <COLUMN name="LEVEL" value="Classification" />
+      <COLUMN name="ROLE" value="TARGET" />
+      <COLUMN name="FormatName" missing=" " />
+   </INPUT>
+</TABLE>
