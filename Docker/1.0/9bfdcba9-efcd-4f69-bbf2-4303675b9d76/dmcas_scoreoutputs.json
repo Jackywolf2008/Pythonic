@@ -1,0 +1,212 @@
+{
+  "creationTimeStamp" : null,
+  "modifiedTimeStamp" : null,
+  "createdBy" : null,
+  "modifiedBy" : null,
+  "id" : null,
+  "name" : "dmcas_scoreoutputs",
+  "description" : null,
+  "revision" : 0,
+  "groupName" : null,
+  "order" : 0,
+  "type" : null,
+  "parameterMap" : {
+    "ROLE" : {
+      "parameter" : "ROLE",
+      "type" : "char",
+      "label" : "Role",
+      "length" : 32,
+      "order" : 2,
+      "values" : [ "ROLE" ],
+      "preformatted" : false
+    },
+    "FORMAT" : {
+      "parameter" : "FORMAT",
+      "type" : "char",
+      "label" : "Variable Format",
+      "length" : 36,
+      "order" : 5,
+      "values" : [ "FORMAT" ],
+      "preformatted" : false
+    },
+    "CREATOR" : {
+      "parameter" : "CREATOR",
+      "type" : "char",
+      "label" : "Creator",
+      "length" : 256,
+      "order" : 7,
+      "values" : [ "CREATOR" ],
+      "preformatted" : false
+    },
+    "LENGTH" : {
+      "parameter" : "LENGTH",
+      "type" : "num",
+      "label" : "Variable Length",
+      "length" : 8,
+      "order" : 6,
+      "values" : [ "LENGTH" ],
+      "preformatted" : false
+    },
+    "CREATORGUID" : {
+      "parameter" : "CREATORGUID",
+      "type" : "char",
+      "label" : "Creator GUID",
+      "length" : 36,
+      "order" : 9,
+      "values" : [ "CREATORGUID" ],
+      "preformatted" : false
+    },
+    "VARTYPE" : {
+      "parameter" : "VARTYPE",
+      "type" : "char",
+      "label" : "Variable Type",
+      "length" : 32,
+      "order" : 4,
+      "values" : [ "VARTYPE" ],
+      "preformatted" : false
+    },
+    "TYPE" : {
+      "parameter" : "TYPE",
+      "type" : "char",
+      "label" : "Type",
+      "length" : 1,
+      "order" : 3,
+      "values" : [ "TYPE" ],
+      "preformatted" : false
+    },
+    "FUNCTION" : {
+      "parameter" : "FUNCTION",
+      "type" : "char",
+      "label" : "Function",
+      "length" : 32,
+      "order" : 8,
+      "values" : [ "FUNCTION" ],
+      "preformatted" : false
+    },
+    "NAME" : {
+      "parameter" : "NAME",
+      "type" : "char",
+      "label" : "Name",
+      "length" : 256,
+      "order" : 1,
+      "values" : [ "NAME" ],
+      "preformatted" : false
+    }
+  },
+  "data" : [ {
+    "dataMap" : {
+      "ROLE" : "CLASSIFICATION",
+      "FORMAT" : "",
+      "CREATOR" : "",
+      "LENGTH" : "32",
+      "CREATORGUID" : "1580d391-8ce8-425b-b25b-551f2176a539",
+      "VARTYPE" : "",
+      "TYPE" : "C",
+      "FUNCTION" : "CLASSIFICATION",
+      "NAME" : "EM_CLASSIFICATION"
+    },
+    "rowNumber" : 1,
+    "header" : null
+  }, {
+    "dataMap" : {
+      "ROLE" : "PREDICT",
+      "FORMAT" : "",
+      "CREATOR" : "",
+      "LENGTH" : "8",
+      "CREATORGUID" : "1580d391-8ce8-425b-b25b-551f2176a539",
+      "VARTYPE" : "",
+      "TYPE" : "N",
+      "FUNCTION" : "PREDICT",
+      "NAME" : "EM_EVENTPROBABILITY"
+    },
+    "rowNumber" : 2,
+    "header" : null
+  }, {
+    "dataMap" : {
+      "ROLE" : "PREDICT",
+      "FORMAT" : "",
+      "CREATOR" : "",
+      "LENGTH" : "8",
+      "CREATORGUID" : "1580d391-8ce8-425b-b25b-551f2176a539",
+      "VARTYPE" : "",
+      "TYPE" : "N",
+      "FUNCTION" : "PREDICT",
+      "NAME" : "EM_PROBABILITY"
+    },
+    "rowNumber" : 3,
+    "header" : null
+  }, {
+    "dataMap" : {
+      "ROLE" : "CLASSIFICATION",
+      "FORMAT" : "",
+      "CREATOR" : "",
+      "LENGTH" : "32",
+      "CREATORGUID" : "1580d391-8ce8-425b-b25b-551f2176a539",
+      "VARTYPE" : "",
+      "TYPE" : "C",
+      "FUNCTION" : "CLASSIFICATION",
+      "NAME" : "I_BAD"
+    },
+    "rowNumber" : 4,
+    "header" : null
+  }, {
+    "dataMap" : {
+      "ROLE" : "PREDICT",
+      "FORMAT" : "",
+      "CREATOR" : "",
+      "LENGTH" : "8",
+      "CREATORGUID" : "1580d391-8ce8-425b-b25b-551f2176a539",
+      "VARTYPE" : "",
+      "TYPE" : "N",
+      "FUNCTION" : "PREDICT",
+      "NAME" : "P_BAD0"
+    },
+    "rowNumber" : 5,
+    "header" : null
+  }, {
+    "dataMap" : {
+      "ROLE" : "PREDICT",
+      "FORMAT" : "",
+      "CREATOR" : "",
+      "LENGTH" : "8",
+      "CREATORGUID" : "1580d391-8ce8-425b-b25b-551f2176a539",
+      "VARTYPE" : "",
+      "TYPE" : "N",
+      "FUNCTION" : "PREDICT",
+      "NAME" : "P_BAD1"
+    },
+    "rowNumber" : 6,
+    "header" : null
+  }, {
+    "dataMap" : {
+      "ROLE" : "INPUT",
+      "FORMAT" : "",
+      "CREATOR" : "",
+      "LENGTH" : "8",
+      "CREATORGUID" : "1580d391-8ce8-425b-b25b-551f2176a539",
+      "VARTYPE" : "",
+      "TYPE" : "N",
+      "FUNCTION" : "PREDICT",
+      "NAME" : "_P_"
+    },
+    "rowNumber" : 7,
+    "header" : null
+  }, {
+    "dataMap" : {
+      "ROLE" : "ASSESS",
+      "FORMAT" : "",
+      "CREATOR" : "",
+      "LENGTH" : "4",
+      "CREATORGUID" : "1580d391-8ce8-425b-b25b-551f2176a539",
+      "VARTYPE" : "",
+      "TYPE" : "C",
+      "FUNCTION" : "ASSESS",
+      "NAME" : "_WARN_"
+    },
+    "rowNumber" : 8,
+    "header" : null
+  } ],
+  "version" : 1,
+  "yInteger" : false,
+  "xInteger" : false
+}
