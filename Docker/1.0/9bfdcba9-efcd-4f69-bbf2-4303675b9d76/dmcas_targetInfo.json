@@ -1,0 +1,59 @@
+{
+  "product" : "DMCAS",
+  "project" : "3a61fef7-44d4-4a46-adb2-e5c92f87bf49",
+  "target" : {
+    "name" : "'BAD'n",
+    "level" : "BINARY",
+    "format" : "",
+    "order" : "",
+    "label" : "",
+    "event" : "1",
+    "SASJSONExport" : "1.0 PRETTY",
+    "SASTableData+DMCAS_TARGETLEVEL" : [ {
+      "_TYPE_" : "",
+      "dmc_guid_mapper_id" : "3a61fef7-44d4-4a46-adb2-e5c92f87bf49",
+      "_PREDICTEDVAR_" : "I_BAD",
+      "_VARIABLE_" : "BAD",
+      "_INDEX_" : null,
+      "_FREQ_" : null,
+      "FREQPERCENT" : null,
+      "NMISSPERCENT" : null,
+      "_RAWNUM_" : null,
+      "_RAWCHAR_" : "",
+      "_CFMT_" : "",
+      "_EVENT_FLAG_" : "N",
+      "created_dttm" : "04SEP2018:01:54:09.337911",
+      "modified_dttm" : null
+    }, {
+      "_TYPE_" : "",
+      "dmc_guid_mapper_id" : "3a61fef7-44d4-4a46-adb2-e5c92f87bf49",
+      "_PREDICTEDVAR_" : "P_BAD1",
+      "_VARIABLE_" : "BAD",
+      "_INDEX_" : 1,
+      "_FREQ_" : 476,
+      "FREQPERCENT" : 19.991600168,
+      "NMISSPERCENT" : 19.991600168,
+      "_RAWNUM_" : 1,
+      "_RAWCHAR_" : "",
+      "_CFMT_" : "           1",
+      "_EVENT_FLAG_" : "Y",
+      "created_dttm" : "04SEP2018:01:54:09.337911",
+      "modified_dttm" : null
+    }, {
+      "_TYPE_" : "",
+      "dmc_guid_mapper_id" : "3a61fef7-44d4-4a46-adb2-e5c92f87bf49",
+      "_PREDICTEDVAR_" : "P_BAD0",
+      "_VARIABLE_" : "BAD",
+      "_INDEX_" : 2,
+      "_FREQ_" : 1905,
+      "FREQPERCENT" : 80.008399832,
+      "NMISSPERCENT" : 80.008399832,
+      "_RAWNUM_" : 0,
+      "_RAWCHAR_" : "",
+      "_CFMT_" : "           0",
+      "_EVENT_FLAG_" : "N",
+      "created_dttm" : "04SEP2018:01:54:09.337911",
+      "modified_dttm" : null
+    } ]
+  }
+}
